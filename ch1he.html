@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google" content="notranslate">
+    <title>PANDYA — Chapter 1 Complete</title>
+
+    <link rel="stylesheet" href="story.css">
+</head>
+
+<body>
+
+    <!-- BHOOTHA PANDYAN — THE GREAT CONQUEROR (shown after LEVEL 3) -->
+    <div class="story-page">
+        <div class="story-frame"
+             style="--ar:1.79; background-image:url('ch1he.jpeg');">
+
+            <button id="backBtn" class="story-btn back-btn" type="button">
+                &larr; BACK
+            </button>
+
+            <button id="nextBtn" class="story-btn next-btn" type="button">
+                NEXT &rarr;
+            </button>
+
+        </div>
+    </div>
+
+    <script>
+
+        // BACK → Kingdom Path map
+        document.getElementById("backBtn").addEventListener("click", function () {
+            window.location.href = "map.html";
+        });
+
+        // NEXT → CHARACTER SELECTION (needed before LEVEL 4)
+        document.getElementById("nextBtn").addEventListener("click", function () {
+            window.location.href = "showlevel.html";
+        });
+
+    </script>
+
+    <script src="settings.js"></script>
+    <script src="wallet.js"></script>
+</body>
+
+</html>

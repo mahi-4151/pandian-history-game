@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google" content="notranslate">
+    <title>PANDYA — The Story Ends</title>
+
+    <link rel="stylesheet" href="story.css">
+</head>
+
+<body>
+
+    <!-- KUKKEERA PERUVALUTHU — THE LAST STAND OF HONOUR (shown after LEVEL 9) -->
+    <div class="story-page">
+        <div class="story-frame"
+             style="--ar:1.79; background-image:url('ch3he.jpeg');">
+
+            <!-- Live buttons sitting on the printed plates of the artwork -->
+            <button id="finishBtn" class="plate-btn plate-left" type="button">
+                FINISH STORY
+            </button>
+
+            <button id="nextBtn" class="plate-btn plate-right" type="button">
+                NEXT
+            </button>
+
+        </div>
+    </div>
+
+    <script>
+
+        // FINISH STORY → Kingdom Path map (every level unlocked for replay)
+        document.getElementById("finishBtn").addEventListener("click", function () {
+            window.location.href = "map.html";
+        });
+
+        // NEXT → Kingdom Path map (every level unlocked for replay)
+        document.getElementById("nextBtn").addEventListener("click", function () {
+            window.location.href = "map.html";
+        });
+
+    </script>
+
+    <script src="settings.js"></script>
+    <script src="wallet.js"></script>
+</body>
+
+</html>

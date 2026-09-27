@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google" content="notranslate">
+    <title>PANDYA — Chapter 3 Begins</title>
+
+    <link rel="stylesheet" href="story.css">
+</head>
+
+<body>
+
+    <!-- KUKKEERA PERUVALUTHU — THE LEGEND OF UNWAVERING HONOUR (chapter 3 intro) -->
+    <div class="story-page">
+        <div class="story-frame"
+             style="--ar:1.79; background-image:url('ch3h.jpeg');">
+
+            <button id="backBtn" class="story-btn back-btn" type="button">
+                &larr; BACK
+            </button>
+
+            <button id="nextBtn" class="story-btn next-btn" type="button">
+                NEXT &rarr;
+            </button>
+
+        </div>
+    </div>
+
+    <script>
+
+        // BACK → CHARACTER SELECTION
+        document.getElementById("backBtn").addEventListener("click", function () {
+            window.location.href = "showlevel.html";
+        });
+
+        // NEXT → Loading → Kingdom Path (LEVEL 7 is waiting)
+        document.getElementById("nextBtn").addEventListener("click", function () {
+            window.location.href = "loading.html";
+        });
+
+    </script>
+
+    <script src="settings.js"></script>
+    <script src="wallet.js"></script>
+</body>
+
+</html>

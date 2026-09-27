@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google" content="notranslate">
+    <title>PANDYA — Chapter 2 Complete</title>
+
+    <link rel="stylesheet" href="story.css">
+</head>
+
+<body>
+
+    <!-- NEDUNCHELIYAN II — THE FALL OF A KING (shown after LEVEL 6) -->
+    <div class="story-page">
+        <div class="story-frame"
+             style="--ar:1.79; background-image:url('ch2he.jpeg');">
+
+            <!-- Live buttons sitting on the printed plates of the artwork -->
+            <button id="continueBtn" class="plate-btn plate-left" type="button">
+                CONTINUE STORY
+            </button>
+
+            <button id="nextBtn" class="plate-btn plate-right" type="button">
+                NEXT
+            </button>
+
+        </div>
+    </div>
+
+    <script>
+
+        // CONTINUE STORY → CHARACTER SELECTION (needed before LEVEL 7)
+        document.getElementById("continueBtn").addEventListener("click", function () {
+            window.location.href = "showlevel.html";
+        });
+
+        // NEXT → CHARACTER SELECTION (needed before LEVEL 7)
+        document.getElementById("nextBtn").addEventListener("click", function () {
+            window.location.href = "showlevel.html";
+        });
+
+    </script>
+
+    <script src="settings.js"></script>
+    <script src="wallet.js"></script>
+</body>
+
+</html>
